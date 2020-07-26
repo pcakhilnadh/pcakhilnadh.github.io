@@ -1,0 +1,83 @@
+# Site settings
+title: Akhil Nadh Pc
+twitter_username: pcakhilnadh
+name: Akhil Nadh Pc
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/pcakhilnadh
+
+
+#Any buzzword skills you want to include
+skills:
+
+ - name: Machine Learning
+   percentage: 20
+ - name: Python
+   percentage: 80
+ - name: SQL
+   percentage: 40
+
+
+#Blogfeed is optional - including this will add JS to call the feed and populate blog list
+#blogfeed: https://framesbyakhil.wordpress.com/feeds/posts/default?alt=json
+
+#Work experience is required
+roles:
+ - title: Software Engineer Trainee
+   start: 2019
+   end: Ongoing
+   employer: NeST
+   description: Natural Language
+ 
+ 
+
+#Education is required
+education:
+- level: M.Tech
+  date: 2019
+  subject: Information Security
+  school: National Institute of Technology, Jalandhar
+
+- level: BTech
+  date: 2015
+  subject: Computer Science and Engineering
+  school: College of Engineering, Chengannur
+- level: 12th
+  date: 2011
+  subject: Computer Science
+  school: Don Bosco HSS, Irinjalakuda
+- level: 12th
+  date: 2011
+  subject: Computer Science
+  school: Don Bosco HSS, Irinjalakuda
+
+
+
+
+#This section is optional (as is the image link below)
+#Coursera
+
+#This section is optional - embeds slideshows from speakerdeck
+# to get the speakerdeck ID copy the embed code and look for the data-it attribute
+
+#List of interesting Github repo/projects to include - optional
+github:
+ - pcakhilnadh/pcakhilnadh.github.io
+
+#Stackoverflow flair is optional
+stackoverflow:
+   profileurl: 
+   flairimageurl: 
+
+intro: |
+  Introduction about <b> Me </b>
+
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: |
+   Additional Information about me

@@ -1,0 +1,27 @@
+<div id="skillsBubble" class="rounded_panel txt_lightgrey">
+	<div class="top-rounded-panel grey-bg">
+		<h1 id="user-skills">Areas of experience &amp; interest</h1>
+	</div>
+	<div class="content-rounded-panel">
+
+		<div id="skills">
+			{% for skill in site.skills %}
+             
+            
+                <div class="progressHolder">
+                  <p class="progress-label">
+                    {{skill.name}}
+                  </p>
+                  <div class="progress" id="prog1">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                  aria-valuemax="100" style="width: {{skill.percentage}}%">
+                      <span class="sr-only">20% Complete</span>
+                    </div>
+                  </div>
+                </div>
+              
+            
+            {% endfor %}
+		</div>
+	</div>
+</div>
