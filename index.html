@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Akhil Nadh PC</title>
+  <meta name="description" content="Personal portfolio of Akhil Nadh PC, Lead Data Scientist with expertise in Computer Vision and NLP">
+  <meta property="og:title" content="Akhil Nadh PC - Data Scientist Portfolio">
+  <meta property="og:description" content="Personal portfolio showcasing expertise in Computer Vision, NLP, and ML Engineering">
+  <meta property="og:type" content="website">
+  <!-- Enhanced error tracking -->
+  <script>
+    console.log("HTML document loaded at:", new Date().toISOString());
+    console.log("Document URL:", window.location.href);
+    
+    // More detailed resource error tracking
+    window.addEventListener('error', function(e) {
+      if (e.target && (e.target.tagName === 'LINK' || e.target.tagName === 'SCRIPT' || e.target.tagName === 'IMG')) {
+        console.error('Resource failed to load:', {
+          type: e.target.tagName,
+          src: e.target.src || e.target.href,
+          id: e.target.id,
+          className: e.target.className,
+          path: e.target.src || e.target.href
+        });
+      } else {
+        console.error('General error:', e.message, e.filename, e.lineno);
+      }
+    }, true);
+    
+    // Track all network requests
+    const originalFetch = window.fetch;
+    window.fetch = function(input, init) {
+      const url = typeof input === 'string' ? input : input.url;
+      console.log('Fetch request:', url);
+      
+      return originalFetch.apply(this, arguments)
+        .then(response => {
+          console.log('Fetch response:', url, response.status);
+          return response;
+        })
+        .catch(error => {
+          console.error('Fetch error:', url, error);
+          throw error;
+        });
+    };
+    
+    // Track all XHR requests
+    const originalXHROpen = XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open = function(method, url) {
+      this.addEventListener('load', function() {
+        console.log('XHR response:', url, this.status);
+      });
+      this.addEventListener('error', function() {
+        console.error('XHR error:', url);
+      });
+      console.log('XHR request:', url);
+      return originalXHROpen.apply(this, arguments);
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/akhilnadhpc/assets/index.DuKXSBJ7.js"></script>
+  <link rel="stylesheet" crossorigin href="/akhilnadhpc/assets/index.bSWgUjvw.css">
+</head>
+<body>
+  <div id="root"></div>
+  <noscript>
+    <p>JavaScript is required to view this portfolio. Please enable JavaScript in your browser.</p>
+  </noscript>
+</body>
+</html>
+
+
