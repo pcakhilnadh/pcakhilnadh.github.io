@@ -1,0 +1,78 @@
+{
+  "basic_info": {
+    "full_name": "Akhil Nadh Pc",
+    "dob": "1994-05-24",
+    "place_of_birth": "Thrissur, Kerala, India",
+    "email": "akhilnadhpc@gmail.com",
+    "address": "Pullolikkal House, Solvent Road, Irinjalakuda.P.O, Thrissur, Kerala, India, 680101",
+    "total_years_of_experiece": "5.5 Years",
+    "tagline":"Lead Data Scientist at Air India",
+    "short_summary": "Experienced Data Scientist with expertise in Computer Vision and NLP, passionate about solving real-world problems through AI.",
+    "long_descriptive_summary":"very long descriptive summary",
+    "profile_image": "path/to/profile.jpg"
+  },
+  "family_info": {
+    "father_name": "Dr. Chandran PP",
+    "father_occupation": "Homoeopathic Physician",
+    "mother_name": "Preethy KS",
+    "mother_occupation": "Retired School Teacher",
+    "siblings": [],
+    "marital_status": "Single"
+  },
+  "hobbies": [
+    "Traveling",
+    "Photography"
+  ],
+  "social_profiles": {
+    "twitter": {
+      "url": "https://twitter.com/akhilnadhpc",
+      "handler": "akhilnadhpc"
+    },
+    "instagram": {
+      "url": "https://instagram.com/framesbyakhil",
+      "handler": "framesbyakhil"
+    }
+  },
+  "professional_profiles": {
+    "linkedin": {
+      "url": "https://linkedin.com/in/akhilnadhpc",
+      "handler": "akhilnadhpc"
+    },
+    "personal_blog": {
+      "url": "https://akhilnadhpc.me",
+      "handler": "akhilnadhpc.me"
+    }
+  },
+  "coding_profiles": {
+    "github": {
+      "url": "https://github.com/akhilnadhpc",
+      "handler": "akhilnadhpc"
+    },
+    "leetcode": {
+      "url": "https://leetcode.com/akhilnadhpc",
+      "handler": "akhilnadhpc"
+    },
+    "hackerrank": {
+      "url": "https://www.hackerrank.com/akhilnadhpc",
+      "handler": "akhilnadhpc"
+    },
+    "stackoverflow": {
+      "url": "https://stackoverflow.com/users/1234567/akhilnadhpc",
+      "handler": "akhilnadhpc"
+    },
+    "kaggle": {
+      "url": "https://kaggle.com/akhilnadhpc",
+      "handler": "akhilnadhpc"
+    }
+  },
+  "personal_profiles": {
+    "Google Map Reviewer Profile": {
+      "url": "https://maps.google.com/contributor/123456789",
+      "handler": "Akhil Nadh"
+    },
+    "Medium": {
+      "url": "https://medium.com/@akhilnadhpc",
+      "handler": "akhilnadhpc"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "education": [
+      {
+        "institution": "ABC Engineering College",
+        "degree": "B.Tech in Electronics and Communication",
+        "location": "Kerala, India",
+        "start_year": "2011",
+        "end_year": "2015"
+      },
+      {
+        "institution": "XYZ Higher Secondary School",
+        "degree": "12th Grade",
+        "start_year": "2009",
+        "end_year": "2011"
+      }
+    ]
+  }
+  
